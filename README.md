@@ -45,3 +45,9 @@ cd legacy-did-transformation
 yarn install
 yarn convert <path-to-legacy-did-document>
 ```
+
+## Questions
+
+- Do we want to support DIDComm v1 entries (in addition to `IndyAgent`)?
+- Do we want to transform IndyAgent services to DIDComm v1 services?
+- Should we transform all the ed25519 authentication keys to X25519 and add them to the keyAgreement array?
