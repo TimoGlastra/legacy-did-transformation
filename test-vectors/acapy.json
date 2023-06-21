@@ -1,0 +1,34 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "publicKey": [
+    {
+      "id": "did:sov:HTAiudHA4jPDYVYGaTdow9#1",
+      "controller": "did:sov:HTAiudHA4jPDYVYGaTdow9",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "9y47x4shahoSXDDRAtCsx3RrPSuQeJmQ1irGEGizRz3T"
+    }
+  ],
+  "service": [
+    {
+      "id": "did:sov:HTAiudHA4jPDYVYGaTdow9;indy",
+      "serviceEndpoint": "https://didcomm.agent.community.animo.id",
+      "type": "IndyAgent",
+      "priority": 0,
+      "recipientKeys": ["9y47x4shahoSXDDRAtCsx3RrPSuQeJmQ1irGEGizRz3T"]
+    },
+    {
+      "id": "did:sov:HTAiudHA4jPDYVYGaTdow9;indy1",
+      "serviceEndpoint": "wss://didcomm.agent.community.animo.id",
+      "type": "IndyAgent",
+      "priority": 0,
+      "recipientKeys": ["9y47x4shahoSXDDRAtCsx3RrPSuQeJmQ1irGEGizRz3T"]
+    }
+  ],
+  "authentication": [
+    {
+      "publicKey": "did:sov:HTAiudHA4jPDYVYGaTdow9#1",
+      "type": "Ed25519SignatureAuthentication2018"
+    }
+  ],
+  "id": "did:sov:HTAiudHA4jPDYVYGaTdow9"
+}

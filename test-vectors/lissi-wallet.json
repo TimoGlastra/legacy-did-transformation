@@ -1,0 +1,23 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "publicKey": [
+    {
+      "id": "YMQAwVLYVq2QackRmq8e5h#keys-1",
+      "controller": "YMQAwVLYVq2QackRmq8e5h",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "J66CCopD8U3kQz2TynfwSBHJsfZNwwSP916JDHsLcphd"
+    }
+  ],
+  "service": [
+    {
+      "id": "YMQAwVLYVq2QackRmq8e5h;indy",
+      "serviceEndpoint": "https://prod-2.router.lissi.io",
+      "type": "IndyAgent",
+      "priority": 0,
+      "recipientKeys": ["J66CCopD8U3kQz2TynfwSBHJsfZNwwSP916JDHsLcphd"],
+      "routingKeys": ["A9E6i1fNWVErUgrfhwrjYNJbTosWQNbE7VQpi5y48hrw"]
+    }
+  ],
+  "authentication": [],
+  "id": "YMQAwVLYVq2QackRmq8e5h"
+}

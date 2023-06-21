@@ -1,0 +1,23 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "publicKey": [
+    {
+      "id": "QmGQQpszec5RYVVgVscCj2#keys-1",
+      "controller": "QmGQQpszec5RYVVgVscCj2",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "DxCh9985T422LD6X29pUHQXGiY8KiHGBz4P2mEdVFacR"
+    }
+  ],
+  "service": [
+    {
+      "id": "QmGQQpszec5RYVVgVscCj2;indy",
+      "serviceEndpoint": "https://streetcred-mediator-agent.azurewebsites.net/",
+      "type": "IndyAgent",
+      "priority": 0,
+      "recipientKeys": ["DxCh9985T422LD6X29pUHQXGiY8KiHGBz4P2mEdVFacR"],
+      "routingKeys": ["CLPfsxUh3L9dvShn64fbFJdLko6GneaBCDZBP66iYUwD"]
+    }
+  ],
+  "authentication": [],
+  "id": "QmGQQpszec5RYVVgVscCj2"
+}

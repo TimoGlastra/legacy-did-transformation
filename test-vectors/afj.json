@@ -1,0 +1,28 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "publicKey": [
+    {
+      "id": "RuvHhbFH6vWiXM1RNEqEsP#1",
+      "controller": "RuvHhbFH6vWiXM1RNEqEsP",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "EaXjN7bjKWnEsMqe6nKhXJU2YBWS3AYVEzX4iHXcaz4W"
+    }
+  ],
+  "service": [
+    {
+      "id": "RuvHhbFH6vWiXM1RNEqEsP#IndyAgentService",
+      "serviceEndpoint": "https://e88c-217-123-18-26.ngrok-free.app",
+      "type": "IndyAgent",
+      "priority": 0,
+      "recipientKeys": ["EaXjN7bjKWnEsMqe6nKhXJU2YBWS3AYVEzX4iHXcaz4W"],
+      "routingKeys": []
+    }
+  ],
+  "authentication": [
+    {
+      "publicKey": "RuvHhbFH6vWiXM1RNEqEsP#1",
+      "type": "Ed25519SignatureAuthentication2018"
+    }
+  ],
+  "id": "RuvHhbFH6vWiXM1RNEqEsP"
+}
